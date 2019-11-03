@@ -1,11 +1,21 @@
 body {
-	background: #202020;
+	height: 100vh;
+	width: 100vw;
+	background: #2020205b;
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
 		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
 		sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+#canvas-div {
+	height: 100vh;
+}
+canvas {
+	height: 100vh;
+	width: 100vw;
 }
 
 code {
