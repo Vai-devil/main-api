@@ -1,0 +1,59 @@
+.main-screen {
+	overflow: auto;
+	animation: blink2 10s linear infinite;
+	box-shadow: inset 0 0 10px 1px crimson, 0 0 10px 1px black;
+	width: 80vw;
+	height: 75%;
+	position: fixed;
+	top: 50px;
+	left: 50px;
+	padding: 20px;
+	&::-webkit-scrollbar {
+		display: none;
+	}
+}
+
+@media (min-width: 1200px) {
+	.main-screen {
+		width: 83vw;
+	}
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+	.main-screen {
+		width: 79vw;
+	}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+	.main-screen {
+		width: 72vw;
+	}
+}
+@media (min-width: 560px) and (max-width: 768px) {
+	.main-screen {
+		width: 67vw;
+	}
+}
+@media (min-width: 400px) and (max-width: 560px) {
+	.main-screen {
+		width: 61vw;
+	}
+}
+
+@keyframes blink2 {
+	10% {
+		//opacity: 0;
+		box-shadow: inset 0 0 20px 5px rgba(233, 11, 11, 0.4), 0 0 20px 1px black;
+	}
+	30% {
+		box-shadow: inset 0 0 10px 2px rgba(230, 24, 24, 0.4), 0 0 20px 1px black;
+	}
+	50% {
+		box-shadow: inset 0 0 25px 4px rgba(248, 23, 23, 0.4), 0 0 20px 1px black;
+	}
+	70% {
+		box-shadow: inset 0 0 10px 2px rgba(243, 5, 5, 0.4), 0 0 20px 1px black;
+	}
+	90% {
+		box-shadow: inset 0 0 35px 4px rgba(211, 13, 13, 0.4), 0 0 20px 1px black;
+	}
+}
