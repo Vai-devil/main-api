@@ -45,8 +45,8 @@
   top: 30px;
   border-radius: 45px;
   right: 10px;
-  -webkit-box-shadow: inset 0 0 5px 9px rgba(0, 0, 0, 0.5);
-          box-shadow: inset 0 0 5px 9px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: inset 0 0 5px 9px rgba(0, 0, 0, 0.911);
+          box-shadow: inset 0 0 5px 9px rgba(0, 0, 0, 0.911);
 }
 
 .buttons-container ul {
@@ -100,13 +100,13 @@
 }
 
 .buttons-container li:nth-of-type(1) {
-  border-top-left-radius: 40px;
-  border-top-right-radius: 40px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
 }
 
 .buttons-container li:last-of-type {
-  border-bottom-left-radius: 40px;
-  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 
 .buttons-container li:hover {
@@ -125,8 +125,8 @@
 .active-text {
   -webkit-animation: blink 3s linear infinite;
           animation: blink 3s linear infinite;
-  color: rgba(233, 11, 11, 0.4) !important;
-  text-shadow: 0 0 1px rgba(233, 11, 55, 0.602);
+  color: rgba(255, 157, 0, 0.952) !important;
+  text-shadow: 0 0 1px rgba(255, 157, 28, 0.726);
 }
 
 .fas,
@@ -140,99 +140,99 @@
   background: #151515 !important;
   border-top: none !important;
   border-bottom: 1px solid #252525 !important;
-  -webkit-box-shadow: inset 0 0 10px 0px rgba(233, 11, 11, 0.554) !important;
-          box-shadow: inset 0 0 10px 0px rgba(233, 11, 11, 0.554) !important;
+  -webkit-box-shadow: inset 0 0 10px 0px rgba(255, 157, 28, 0.726) !important;
+          box-shadow: inset 0 0 10px 0px rgba(255, 157, 28, 0.726) !important;
 }
 
 @-webkit-keyframes blink {
   10% {
-    color: rgba(233, 11, 11, 0.4);
-    text-shadow: 0 0 1px rgba(233, 11, 11, 0.4);
+    color: rgba(255, 157, 0, 0.952);
+    text-shadow: 0 0 1px rgba(255, 157, 28, 0.726);
   }
   30% {
-    color: rgba(233, 11, 11, 0.6);
-    text-shadow: 0 0 3px rgba(233, 11, 11, 0.6);
+    color: rgba(255, 157, 0, 0.952);
+    text-shadow: 0 0 3px rgba(255, 157, 28, 0.726);
   }
   50% {
-    color: rgba(228, 22, 22, 0.9);
-    text-shadow: 0 0 5px rgba(233, 11, 11, 0.9);
+    color: rgba(255, 157, 0, 0.952);
+    text-shadow: 0 0 5px rgba(255, 157, 28, 0.726);
   }
   70% {
-    color: rgba(233, 11, 11, 0.6);
-    text-shadow: 0 0 3px rgba(233, 11, 11, 0.6);
+    color: rgba(255, 157, 0, 0.952);
+    text-shadow: 0 0 3px rgba(255, 157, 28, 0.726);
   }
   90% {
-    color: rgba(233, 11, 11, 0.4);
-    text-shadow: 0 0 1px rgba(233, 11, 11, 0.4);
+    color: rgba(255, 157, 0, 0.952);
+    text-shadow: 0 0 1px rgba(255, 157, 28, 0.726);
   }
 }
 
 @keyframes blink {
   10% {
-    color: rgba(233, 11, 11, 0.4);
-    text-shadow: 0 0 1px rgba(233, 11, 11, 0.4);
+    color: rgba(255, 157, 0, 0.952);
+    text-shadow: 0 0 1px rgba(255, 157, 28, 0.726);
   }
   30% {
-    color: rgba(233, 11, 11, 0.6);
-    text-shadow: 0 0 3px rgba(233, 11, 11, 0.6);
+    color: rgba(255, 157, 0, 0.952);
+    text-shadow: 0 0 3px rgba(255, 157, 28, 0.726);
   }
   50% {
-    color: rgba(228, 22, 22, 0.9);
-    text-shadow: 0 0 5px rgba(233, 11, 11, 0.9);
+    color: rgba(255, 157, 0, 0.952);
+    text-shadow: 0 0 5px rgba(255, 157, 28, 0.726);
   }
   70% {
-    color: rgba(233, 11, 11, 0.6);
-    text-shadow: 0 0 3px rgba(233, 11, 11, 0.6);
+    color: rgba(255, 157, 0, 0.952);
+    text-shadow: 0 0 3px rgba(255, 157, 28, 0.726);
   }
   90% {
-    color: rgba(233, 11, 11, 0.4);
-    text-shadow: 0 0 1px rgba(233, 11, 11, 0.4);
+    color: rgba(255, 157, 0, 0.952);
+    text-shadow: 0 0 1px rgba(255, 157, 28, 0.726);
   }
 }
 
 @-webkit-keyframes blink3 {
   10% {
-    -webkit-box-shadow: inset 0 0 10px 2px rgba(233, 11, 11, 0.554);
-            box-shadow: inset 0 0 10px 2px rgba(233, 11, 11, 0.554);
+    -webkit-box-shadow: inset 0 0 5px 2px rgba(12, 8, 4, 0.726);
+            box-shadow: inset 0 0 5px 2px rgba(12, 8, 4, 0.726);
   }
   30% {
-    -webkit-box-shadow: inset 0 0 15px 5px rgba(233, 11, 11, 0.554);
-            box-shadow: inset 0 0 15px 5px rgba(233, 11, 11, 0.554);
+    -webkit-box-shadow: inset 0 0 15px 3px rgba(12, 8, 4, 0.726);
+            box-shadow: inset 0 0 15px 3px rgba(12, 8, 4, 0.726);
   }
   50% {
-    -webkit-box-shadow: inset 0 0 10px 2px rgba(233, 11, 11, 0.554);
-            box-shadow: inset 0 0 10px 2px rgba(233, 11, 11, 0.554);
+    -webkit-box-shadow: inset 0 0 5px 2px rgba(255, 157, 0, 0.952);
+            box-shadow: inset 0 0 5px 2px rgba(255, 157, 0, 0.952);
   }
   70% {
-    -webkit-box-shadow: inset 0 0 15px 5px rgba(233, 11, 11, 0.554);
-            box-shadow: inset 0 0 15px 5px rgba(233, 11, 11, 0.554);
+    -webkit-box-shadow: inset 0 0 15px 3px rgba(12, 8, 4, 0.726);
+            box-shadow: inset 0 0 15px 3px rgba(12, 8, 4, 0.726);
   }
   90% {
-    -webkit-box-shadow: inset 0 0 10px 3px rgba(233, 11, 11, 0.554);
-            box-shadow: inset 0 0 10px 3px rgba(233, 11, 11, 0.554);
+    -webkit-box-shadow: inset 0 0 5px 2px rgba(12, 8, 4, 0.726);
+            box-shadow: inset 0 0 5px 2px rgba(12, 8, 4, 0.726);
   }
 }
 
 @keyframes blink3 {
   10% {
-    -webkit-box-shadow: inset 0 0 10px 2px rgba(233, 11, 11, 0.554);
-            box-shadow: inset 0 0 10px 2px rgba(233, 11, 11, 0.554);
+    -webkit-box-shadow: inset 0 0 5px 2px rgba(12, 8, 4, 0.726);
+            box-shadow: inset 0 0 5px 2px rgba(12, 8, 4, 0.726);
   }
   30% {
-    -webkit-box-shadow: inset 0 0 15px 5px rgba(233, 11, 11, 0.554);
-            box-shadow: inset 0 0 15px 5px rgba(233, 11, 11, 0.554);
+    -webkit-box-shadow: inset 0 0 15px 3px rgba(12, 8, 4, 0.726);
+            box-shadow: inset 0 0 15px 3px rgba(12, 8, 4, 0.726);
   }
   50% {
-    -webkit-box-shadow: inset 0 0 10px 2px rgba(233, 11, 11, 0.554);
-            box-shadow: inset 0 0 10px 2px rgba(233, 11, 11, 0.554);
+    -webkit-box-shadow: inset 0 0 5px 2px rgba(255, 157, 0, 0.952);
+            box-shadow: inset 0 0 5px 2px rgba(255, 157, 0, 0.952);
   }
   70% {
-    -webkit-box-shadow: inset 0 0 15px 5px rgba(233, 11, 11, 0.554);
-            box-shadow: inset 0 0 15px 5px rgba(233, 11, 11, 0.554);
+    -webkit-box-shadow: inset 0 0 15px 3px rgba(12, 8, 4, 0.726);
+            box-shadow: inset 0 0 15px 3px rgba(12, 8, 4, 0.726);
   }
   90% {
-    -webkit-box-shadow: inset 0 0 10px 3px rgba(233, 11, 11, 0.554);
-            box-shadow: inset 0 0 10px 3px rgba(233, 11, 11, 0.554);
+    -webkit-box-shadow: inset 0 0 5px 2px rgba(12, 8, 4, 0.726);
+            box-shadow: inset 0 0 5px 2px rgba(12, 8, 4, 0.726);
   }
 }
 /*# sourceMappingURL=Navigation.css.map */

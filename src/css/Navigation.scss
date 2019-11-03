@@ -1,3 +1,7 @@
+$color: rgba(255, 157, 0, 0.952);
+$shadowColor: rgba(255, 157, 28, 0.726);
+$boxshadowColor: rgba(12, 8, 4, 0.726);
+
 @media (min-width: 1200px) {
 	.buttons-container {
 		transform: scale(1, 1);
@@ -32,7 +36,7 @@
 	top: 30px;
 	border-radius: 45px;
 	right: 10px;
-	box-shadow: inset 0 0 5px 9px rgba(0, 0, 0, 0.5);
+	box-shadow: inset 0 0 5px 9px rgba(0, 0, 0, 0.911);
 	ul {
 		padding: 0px;
 		width: inherit;
@@ -61,12 +65,12 @@
 		background: #202020;
 		box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
 		&:nth-of-type(1) {
-			border-top-left-radius: 40px;
-			border-top-right-radius: 40px;
+			border-top-left-radius: 50px;
+			border-top-right-radius: 50px;
 		}
 		&:last-of-type {
-			border-bottom-left-radius: 40px;
-			border-bottom-right-radius: 40px;
+			border-bottom-left-radius: 50px;
+			border-bottom-right-radius: 50px;
 		}
 		&:hover {
 			cursor: pointer;
@@ -83,8 +87,8 @@
 
 .active-text {
 	animation: blink 3s linear infinite;
-	color: rgba(233, 11, 11, 0.4) !important;
-	text-shadow: 0 0 1px rgba(233, 11, 55, 0.602);
+	color: $color !important;
+	text-shadow: 0 0 1px $shadowColor;
 }
 
 .fas,
@@ -97,46 +101,46 @@
 	background: #151515 !important;
 	border-top: none !important;
 	border-bottom: 1px solid #252525 !important;
-	box-shadow: inset 0 0 10px 0px rgba(233, 11, 11, 0.554) !important;
+	box-shadow: inset 0 0 10px 0px $shadowColor !important;
 }
 
 @keyframes blink {
 	10% {
 		//opacity: 0;
-		color: rgba(233, 11, 11, 0.4);
-		text-shadow: 0 0 1px rgba(233, 11, 11, 0.4);
+		color: $color;
+		text-shadow: 0 0 1px $shadowColor;
 	}
 	30% {
-		color: rgba(233, 11, 11, 0.6);
-		text-shadow: 0 0 3px rgba(233, 11, 11, 0.6);
+		color: $color;
+		text-shadow: 0 0 3px $shadowColor;
 	}
 	50% {
-		color: rgba(228, 22, 22, 0.9);
-		text-shadow: 0 0 5px rgba(233, 11, 11, 0.9);
+		color: $color;
+		text-shadow: 0 0 5px $shadowColor;
 	}
 	70% {
-		color: rgba(233, 11, 11, 0.6);
-		text-shadow: 0 0 3px rgba(233, 11, 11, 0.6);
+		color: $color;
+		text-shadow: 0 0 3px $shadowColor;
 	}
 	90% {
-		color: rgba(233, 11, 11, 0.4);
-		text-shadow: 0 0 1px rgba(233, 11, 11, 0.4);
+		color: $color;
+		text-shadow: 0 0 1px $shadowColor;
 	}
 }
 @keyframes blink3 {
 	10% {
-		box-shadow: inset 0 0 10px 2px rgba(233, 11, 11, 0.554);
+		box-shadow: inset 0 0 5px 2px $boxshadowColor;
 	}
 	30% {
-		box-shadow: inset 0 0 15px 5px rgba(233, 11, 11, 0.554);
+		box-shadow: inset 0 0 15px 3px $boxshadowColor;
 	}
 	50% {
-		box-shadow: inset 0 0 10px 2px rgba(233, 11, 11, 0.554);
+		box-shadow: inset 0 0 5px 2px $color;
 	}
 	70% {
-		box-shadow: inset 0 0 15px 5px rgba(233, 11, 11, 0.554);
+		box-shadow: inset 0 0 15px 3px $boxshadowColor;
 	}
 	90% {
-		box-shadow: inset 0 0 10px 3px rgba(233, 11, 11, 0.554);
+		box-shadow: inset 0 0 5px 2px $boxshadowColor;
 	}
 }

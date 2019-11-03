@@ -1,14 +1,18 @@
+$color: rgba(255, 157, 0, 0.952);
+$shadowColor: rgba(0, 0, 0, 0.726);
+
 .main-screen {
-	background: #202020a2;
+	background: #d6d6d6f5;
 	overflow: auto;
-	animation: blink2 10s linear infinite;
-	box-shadow: inset 0 0 10px 1px crimson, 0 0 10px 1px black;
+	animation: blink2 5s linear infinite;
+	animation-direction: alternate;
+	//box-shadow: inset 0 0 10px 1px $shadowColor;
+	box-shadow: 0px 0px 10px 4px black;
 	width: 80vw;
 	height: 75%;
 	position: fixed;
 	top: 50px;
 	left: 50px;
-	padding: 20px;
 	&::-webkit-scrollbar {
 		display: none;
 	}
@@ -40,21 +44,21 @@
 	}
 }
 
-@keyframes blink2 {
-	10% {
-		//opacity: 0;
-		box-shadow: inset 0 0 20px 15px rgba(233, 11, 11, 0.4), 0 0 20px 1px black;
-	}
-	30% {
-		box-shadow: inset 0 0 10px 12px rgba(230, 24, 24, 0.4), 0 0 20px 1px black;
-	}
-	50% {
-		box-shadow: inset 0 0 25px 14px rgba(248, 23, 23, 0.4), 0 0 20px 1px black;
-	}
-	70% {
-		box-shadow: inset 0 0 10px 12px rgba(243, 5, 5, 0.4), 0 0 20px 1px black;
-	}
-	90% {
-		box-shadow: inset 0 0 35px 14px rgba(211, 13, 13, 0.4), 0 0 20px 1px black;
-	}
-}
+// @keyframes blink2 {
+// 	10% {
+// 		//opacity: 0;
+// 		box-shadow: inset 0 0 10px 8px $color, 7px 7px 15px 5px black;
+// 	}
+// 	30% {
+// 		box-shadow: inset 0 0 15px 8px $shadowColor, 7px 7px 15px 5px black;
+// 	}
+// 	50% {
+// 		box-shadow: inset 0 0 10px 8px $color, 7px 7px 15px 5px black;
+// 	}
+// 	70% {
+// 		box-shadow: inset 0 0 15px 8px $shadowColor, 7px 7px 15px 5px black;
+// 	}
+// 	90% {
+// 		box-shadow: inset 0 0 10px 8px $color, 7px 7px 15px 5px black;
+// 	}
+// }
