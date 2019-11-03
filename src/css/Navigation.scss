@@ -82,7 +82,7 @@
 }
 
 .active-text {
-	animation: blink 10s linear infinite;
+	animation: blink 3s linear infinite;
 	color: rgba(233, 11, 11, 0.4) !important;
 	text-shadow: 0 0 1px rgba(233, 11, 55, 0.602);
 }
@@ -93,10 +93,11 @@
 }
 
 .active {
+	animation: blink3 3s linear infinite;
 	background: #151515 !important;
 	border-top: none !important;
 	border-bottom: 1px solid #252525 !important;
-	box-shadow: inset 0 0 10px 0px rgba(0, 0, 0, 0.554) !important;
+	box-shadow: inset 0 0 10px 0px rgba(233, 11, 11, 0.554) !important;
 }
 
 @keyframes blink {
@@ -120,5 +121,22 @@
 	90% {
 		color: rgba(233, 11, 11, 0.4);
 		text-shadow: 0 0 1px rgba(233, 11, 11, 0.4);
+	}
+}
+@keyframes blink3 {
+	10% {
+		box-shadow: inset 0 0 5px 2px rgba(233, 11, 11, 0.554);
+	}
+	30% {
+		box-shadow: inset 0 0 10px 5px rgba(233, 11, 11, 0.554);
+	}
+	50% {
+		box-shadow: inset 0 0 5px 1px rgba(233, 11, 11, 0.554);
+	}
+	70% {
+		box-shadow: inset 0 0 10px 4px rgba(233, 11, 11, 0.554);
+	}
+	90% {
+		box-shadow: inset 0 0 5px 3px rgba(233, 11, 11, 0.554);
 	}
 }
