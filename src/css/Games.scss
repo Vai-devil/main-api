@@ -1,0 +1,81 @@
+$backgroundColour: #346eeb;
+
+.bottomRightCorner {
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: -1;
+	overflow: auto;
+	background: $backgroundColour;
+	clip-path: polygon(100% 0%, 31% 11%, 100% 100%, 0 100%, 71% 89%, 0 0);
+	min-height: 100vh;
+	width: inherit;
+	opacity: 0.55;
+}
+.gamesName {
+	padding-top: 50px;
+	text-align: center;
+	text-shadow: 4px 4px 2px black;
+	font-family: "Crimson Text", serif;
+	padding-top: 50px;
+	font-size: 3em;
+	font-weight: bolder;
+	color: white;
+}
+.gameCards {
+	padding-top: 50px;
+	text-align: center;
+	text-shadow: 1px 1px 1px black;
+	font-family: "Crimson Text", serif;
+	padding-top: 50px;
+	font-size: 2em;
+	font-weight: bolder;
+	color: rgb(0, 0, 0);
+}
+.gamesPage {
+	height: 100vh;
+	width: inherit;
+	background-image: url("../images/stripes.svg");
+	opacity: 0.85;
+	background-position: center;
+	background-size: auto;
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+	.gamesName {
+		font-size: 2.75em;
+	}
+	.gameCards {
+		width: 500px;
+		font-size: 1em;
+	}
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+	.gamesName {
+		font-size: 2.3em;
+	}
+	.gameCards {
+		width: 400px;
+		font-size: 1em;
+	}
+}
+@media (max-width: 768px) and (min-width: 560px) {
+	.gamesName {
+		font-size: 1.2em;
+	}
+	.gameCards {
+		width: 300px;
+		font-size: 1.5em;
+	}
+}
+@media (max-width: 560px) and (min-width: 400px) {
+	.gamesName {
+		font-size: 1.85em;
+	}
+
+	.gameCards {
+		width: 200px;
+		font-size: 1em;
+	}
+}

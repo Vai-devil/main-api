@@ -1,9 +1,12 @@
 import React from "react";
+import "../css/Games.css";
 
 const Games = () => {
 	return (
-		<div>
-			<h1 className="profileName">Conact</h1>
+		<div className="gamesPage">
+			<div className="bottomRightCorner"></div>
+			<div className="gamesName">Games</div>
+			<div className="gameCards">Coming Soon !</div>
 		</div>
 	);
 };
