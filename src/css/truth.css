@@ -1,0 +1,22 @@
+.addAboutme {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: inherit;
+}
+
+.addAboutme textarea {
+	padding: 4px;
+}
+
+.addAboutme input {
+	padding: 4px;
+	width: 100%;
+	height: 30px;
+}
+.addAboutme #abtmebtn {
+	padding: 10px;
+	width: auto;
+	height: auto;
+}

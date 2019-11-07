@@ -1,12 +1,16 @@
 $color: rgba(255, 157, 0, 0.952);
 $shadowColor: rgba(255, 157, 28, 0.726);
-
-.profileName {
-	margin: 20px 50px 20px 0px;
-	font-family: "ZCOOL XiaoWei", serif;
-	font-size: 60px;
-	font-weight: bold;
-	text-shadow: 0px 0px 20px black;
+.profileInfo {
+	.profileName {
+		margin: 20px 50px 20px 0px;
+		font-family: "ZCOOL XiaoWei", serif;
+		font-size: 60px;
+		font-weight: bolder;
+		text-shadow: 0px 0px 20px black;
+	}
+	.info {
+		font-size: 1em;
+	}
 }
 .profileImage {
 	height: 200px;
@@ -23,7 +27,6 @@ $shadowColor: rgba(255, 157, 28, 0.726);
 .profile {
 	margin-top: 30px;
 	display: flex;
-	align-items: center;
 	justify-content: space-evenly;
 }
 .about {
@@ -35,12 +38,20 @@ $shadowColor: rgba(255, 157, 28, 0.726);
 	background-position: bottom;
 	background-size: auto;
 }
-.line {
-	margin: 0 auto;
-	margin-top: 30px;
-
-	width: 90%;
-	height: 3px;
-	background: black;
-	box-shadow: 0px 0px 2px 2px black;
+.truths {
+	display: flex;
+	padding: 20px;
+	width: auto;
+	font-size: 20px;
+	flex-direction: row;
+	justify-content: space-evenly;
+	background: rgba(255, 255, 255, 0.65);
+	margin: 30px auto;
+	button {
+		width: 150px;
+		height: 50px;
+		font-size: 18px;
+		background: #ffffff4b;
+		border-radius: 3px;
+	}
 }
