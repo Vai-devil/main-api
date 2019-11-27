@@ -3,7 +3,7 @@ import About from "../components/About";
 import Main from "../components/Main";
 import Games from "../components/Games";
 import Contact from "../components/Contact";
-import Project from "../components/Projects";
+import Project from "./Projects";
 import Navigation from "../components/Navigation";
 import Truths from "../components/Truths";
 import "../css/Home.css";

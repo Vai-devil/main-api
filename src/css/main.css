@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Vibes&display=swap");
+@-webkit-keyframes glowText {
+  0% {
+    color: #ff792b;
+    text-shadow: 0 0 7px rgba(0, 0, 0, 0.726);
+  }
+  30% {
+    color: #ff792b;
+    text-shadow: 0 0 0px rgba(0, 0, 0, 0.726);
+  }
+  50% {
+    color: #ff792b;
+    text-shadow: 0 0 7px rgba(0, 0, 0, 0.726);
+  }
+  70% {
+    color: #ff792b;
+    text-shadow: 0 0 0px rgba(0, 0, 0, 0.726);
+  }
+  100% {
+    color: #ff792b;
+    text-shadow: 0 0 7px rgba(0, 0, 0, 0.726);
+  }
+}
+@keyframes glowText {
+  0% {
+    color: #ff792b;
+    text-shadow: 0 0 7px rgba(0, 0, 0, 0.726);
+  }
+  30% {
+    color: #ff792b;
+    text-shadow: 0 0 0px rgba(0, 0, 0, 0.726);
+  }
+  50% {
+    color: #ff792b;
+    text-shadow: 0 0 7px rgba(0, 0, 0, 0.726);
+  }
+  70% {
+    color: #ff792b;
+    text-shadow: 0 0 0px rgba(0, 0, 0, 0.726);
+  }
+  100% {
+    color: #ff792b;
+    text-shadow: 0 0 7px rgba(0, 0, 0, 0.726);
+  }
+}
+
+@-webkit-keyframes glowTextOrange {
+  0% {
+    color: rgba(255, 121, 43, 0.705);
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.726);
+  }
+  30% {
+    color: rgba(255, 121, 43, 0.705);
+    text-shadow: 0 0 0px rgba(0, 0, 0, 0.726);
+  }
+  50% {
+    color: rgba(255, 121, 43, 0.705);
+    text-shadow: 0 0 13px rgba(0, 0, 0, 0.726);
+  }
+  70% {
+    color: rgba(255, 121, 43, 0.705);
+    text-shadow: 0 0 0px rgba(0, 0, 0, 0.726);
+  }
+  100% {
+    color: rgba(255, 121, 43, 0.705);
+    text-shadow: 0 0 13px rgba(0, 0, 0, 0.726);
+  }
+}
+
+@keyframes glowTextOrange {
+  0% {
+    color: rgba(255, 121, 43, 0.705);
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.726);
+  }
+  30% {
+    color: rgba(255, 121, 43, 0.705);
+    text-shadow: 0 0 0px rgba(0, 0, 0, 0.726);
+  }
+  50% {
+    color: rgba(255, 121, 43, 0.705);
+    text-shadow: 0 0 13px rgba(0, 0, 0, 0.726);
+  }
+  70% {
+    color: rgba(255, 121, 43, 0.705);
+    text-shadow: 0 0 0px rgba(0, 0, 0, 0.726);
+  }
+  100% {
+    color: rgba(255, 121, 43, 0.705);
+    text-shadow: 0 0 13px rgba(0, 0, 0, 0.726);
+  }
+}
+
+@media (min-width: 1200px) {
+  .glowName {
+    font-size: 5.2em;
+    margin: 30px auto;
+  }
+  .homeName p {
+    font-size: 2.2em;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .glowName {
+    font-size: 4.2em;
+    margin: 25px auto;
+  }
+  .homeName p {
+    font-size: 2em;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .glowName {
+    font-size: 3.5em;
+    margin: 20px auto;
+  }
+  .homeName p {
+    font-size: 1.8em;
+  }
+}
+
+@media (min-width: 560px) and (max-width: 768px) {
+  .glowName {
+    font-size: 3em;
+    margin: 15px auto;
+  }
+  .homeName p {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 560px) {
+  .glowName {
+    font-size: 2.5em;
+    margin: 10px auto;
+  }
+  .homeName p {
+    font-size: 1em;
+  }
+}
+
+.glowName {
+  letter-spacing: 0.35em;
+  font-weight: 800;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Vibes", cursive;
+  width: inherit;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  color: #ff792b;
+  -webkit-animation: glowText 15s linear infinite;
+          animation: glowText 15s linear infinite;
+  -webkit-animation: glowTextOrange 5s linear infinite;
+          animation: glowTextOrange 5s linear infinite;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.726);
+}
+
+.homeName {
+  background: #333;
+  text-align: center;
+  line-height: 75px;
+  height: 100%;
+  width: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: inherit;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  position: relative;
+  margin: 0 auto;
+}
+
+.homeName p {
+  letter-spacing: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Indie Flower", cursive;
+  font-weight: bolder;
+  width: inherit;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  margin: 0 auto;
+  color: #ff9a15;
+}
+/*# sourceMappingURL=main.css.map */

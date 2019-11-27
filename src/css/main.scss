@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Vibes&display=swap");
+
+$color: rgb(255, 121, 43);
+$color1: rgba(255, 121, 43, 0.705);
+$shadowColor: rgba(0, 0, 0, 0.726);
+$shadowColor2: rgba(0, 0, 0, 0.726);
+
+@keyframes glowText {
+	0% {
+		color: $color;
+		text-shadow: 0 0 7px $shadowColor;
+	}
+	30% {
+		color: $color;
+		text-shadow: 0 0 0px $shadowColor;
+	}
+	50% {
+		color: $color;
+		text-shadow: 0 0 7px $shadowColor;
+	}
+	70% {
+		color: $color;
+		text-shadow: 0 0 0px $shadowColor;
+	}
+	100% {
+		color: $color;
+		text-shadow: 0 0 7px $shadowColor;
+	}
+}
+
+@keyframes glowTextOrange {
+	0% {
+		color: $color1;
+		text-shadow: 0 0 15px $shadowColor2;
+	}
+	30% {
+		color: $color1;
+		text-shadow: 0 0 0px $shadowColor2;
+	}
+	50% {
+		color: $color1;
+		text-shadow: 0 0 13px $shadowColor2;
+	}
+	70% {
+		color: $color1;
+		text-shadow: 0 0 0px $shadowColor2;
+	}
+	100% {
+		color: $color1;
+		text-shadow: 0 0 13px $shadowColor2;
+	}
+}
+@media (min-width: 1200px) {
+	.glowName {
+		font-size: 5.2em;
+		margin: 30px auto;
+	}
+	.homeName p {
+		font-size: 2.2em;
+	}
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+	.glowName {
+		font-size: 4.2em;
+		margin: 25px auto;
+	}
+	.homeName p {
+		font-size: 2em;
+	}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+	.glowName {
+		font-size: 3.5em;
+		margin: 20px auto;
+	}
+	.homeName p {
+		font-size: 1.8em;
+	}
+}
+@media (min-width: 560px) and (max-width: 768px) {
+	.glowName {
+		font-size: 3em;
+		margin: 15px auto;
+	}
+	.homeName p {
+		font-size: 1.5em;
+	}
+}
+@media (min-width: 0px) and (max-width: 560px) {
+	.glowName {
+		font-size: 2.5em;
+		margin: 10px auto;
+	}
+	.homeName p {
+		font-size: 1em;
+	}
+}
+
+.glowName {
+	letter-spacing: 0.35em;
+	font-weight: 800;
+	display: flex;
+	font-family: "Vibes", cursive;
+	width: inherit;
+	justify-content: center;
+	position: relative;
+	color: $color;
+	animation: glowText 15s linear infinite;
+	animation: glowTextOrange 5s linear infinite;
+	text-shadow: 0 0 1px $shadowColor;
+}
+
+.homeName {
+	background: #333;
+	text-align: center;
+	line-height: 75px;
+	height: 100%;
+	width: inherit;
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	width: inherit;
+	justify-content: center;
+	align-items: baseline;
+	position: relative;
+	margin: 0 auto;
+}
+
+.homeName p {
+	letter-spacing: 2px;
+
+	display: flex;
+	font-family: "Indie Flower", cursive;
+	font-weight: bolder;
+	width: inherit;
+	justify-content: center;
+	position: relative;
+	margin: 0 auto;
+	color: rgb(255, 154, 21);
+}

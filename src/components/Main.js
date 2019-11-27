@@ -1,9 +1,11 @@
 import React from "react";
+import "../css/main.css";
 
 const Main = () => {
 	return (
-		<div>
-			<h1 className="homeName">HOmE</h1>
+		<div className="homeName">
+			<h1 className="glowName">Vaibhav Heda</h1>
+			<p>Welcome To My Web App</p>
 		</div>
 	);
 };
